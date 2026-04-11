@@ -18,9 +18,11 @@ class DosboxXRevertcmos < Formula
     strategy :github_releases
   end
 
-  patch do
-    url "https://github.com/herrnst/dosbox-x/commit/9297885aa5f2a544055d8ff2f2d48c8562523aa6.diff"
-    sha256 "20cf4ce215727a7fa383cbd5f793cfd21bc34c745effdd214497d5126daedea5"
+  stable do
+    patch do
+      url "https://github.com/herrnst/dosbox-x/commit/9297885aa5f2a544055d8ff2f2d48c8562523aa6.diff"
+      sha256 "20cf4ce215727a7fa383cbd5f793cfd21bc34c745effdd214497d5126daedea5"
+    end
   end
 
   bottle do
