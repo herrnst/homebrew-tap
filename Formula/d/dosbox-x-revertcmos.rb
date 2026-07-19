@@ -1,8 +1,8 @@
 class DosboxXRevertcmos < Formula
   desc "DOSBox with accurate emulation and wide testing with reverted CMOS changes for WinNT compat"
   homepage "https://dosbox-x.com/"
-  url "https://github.com/herrnst/dosbox-x/archive/refs/tags/dosbox-x-v2026.06.02-revertcmos.tar.gz"
-  sha256 "e94c931c7790aa029060803d2aae66042ca12eaa0d3803cbff9fdd503a604ff0"
+  url "https://github.com/herrnst/dosbox-x/archive/refs/tags/dosbox-x-v2026.07.02-revertcmos.tar.gz"
+  sha256 "4ad9dedc16e6f059c8bd0ea8117d2dee56bb5ba7f0acc6965231918b8520adcf"
   license "GPL-2.0-or-later"
   version_scheme 1
   head "https://github.com/herrnst/dosbox-x.git", branch: "revertcmos"
@@ -35,7 +35,8 @@ class DosboxXRevertcmos < Formula
   depends_on "freetype"
   depends_on "libpng"
   depends_on "libslirp"
-  depends_on "sdl2"
+  depends_on "sdl2-compat"
+  depends_on "sdl2_net"
 
   conflicts_with "dosbox-x", because: "same binaries but different upstream with patches"
 
