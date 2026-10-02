@@ -1,8 +1,8 @@
 class DosboxXRevertcmos < Formula
   desc "DOSBox with accurate emulation and wide testing with reverted CMOS changes for WinNT compat"
   homepage "https://dosbox-x.com/"
-  url "https://github.com/herrnst/dosbox-x/archive/refs/tags/dosbox-x-v2026.08.02-revertcmos.tar.gz"
-  sha256 "3efefb587b3ecffd4a93403943ecdca300e0d37248a34994396f6cf7e5d63ec2"
+  url "https://github.com/herrnst/dosbox-x/archive/refs/tags/dosbox-x-v2026.10.01-revertcmos.tar.gz"
+  sha256 "e25452260b98166e9149fcc2ee22cd6b4adc975bd3120f7a5828e8ebf9497340"
   license "GPL-2.0-or-later"
   version_scheme 1
   head "https://github.com/herrnst/dosbox-x.git", branch: "revertcmos"
